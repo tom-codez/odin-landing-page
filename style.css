@@ -68,10 +68,26 @@ img {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.img-cont img:hover {
+.img-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+    gap: 60px;
+}
+.img-showcase {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    font-weight: bold;
+}
+.img-showcase:hover {
     position: relative;
-    top: -24px;
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 #main-image {
     display: flex;
@@ -88,10 +104,13 @@ button {
     background-color: #3882f6;
     color: white;
     font-size: 16px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
 }
 button:hover {
     background-color: #f9faf8;
     color: #3882f6;
+    transform: scale(0.94);
 }
 #second-button {
     margin: 0px;
@@ -106,7 +125,7 @@ button:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
-.first-cont {
+#first-cont {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -122,7 +141,7 @@ button:hover {
     padding-right: 50px;
     margin: 0px;
 }
-.second-cont {
+#second-cont {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -130,25 +149,11 @@ button:hover {
     align-items: center;
     padding: 100px;
 }
-.third-cont {
+#third-cont {
     background-color: #e5e7eb;
     padding: 100px;
 }
-.img-cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 20px;
-    gap: 60px;
-}
-.img-showcase {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    text-align: center;
-}
-.last-cont {
+#last-cont {
     background-color: white;
     padding: 100px;
 }
