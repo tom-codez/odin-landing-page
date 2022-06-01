@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>Push Pull</title>
+    </head>
+
+    <body>
+        <header id="inputs-cont">
+            <div id="split-cont" class="input-conts">
+                <button id="push-btn" class="input-btns split-btns">Push</button>
+                <button id="pull+legs-btn" class="input-btns split-btns">Pull (w/Legs)</button>
+                <button id="pull-btn" class="input-btns split-btns">Pull</button>
+                <button id="legs-split-btn" class="input-btns split-btns">Legs</button>
+            </div>
+
+            <div class="line"></div>
+
+            <div id="equip-cont" class="input-conts">
+                <button id="body-btn" class="input-btns equip-btns">Body-Weight</button>
+                <button id="dumb-btn" class="input-btns equip-btns">Dumbells</button>
+                <button id="bar-btn" class="input-btns equip-btns">Barbell</button>
+                <button id="gym-btn" class="input-btns equip-btns">Full Machines</button>
+            </div>
+
+            <div class="line"></div>
+
+            <div id="sets-div" class="input-conts">
+                <button id="3sets-btn" class="input-btns sets-btns">3</button>
+                <button id="4sets-btn" class="input-btns sets-btns">4</button>
+                <button id="5sets-btn" class="input-btns sets-btns">5</button>
+                <button id="6sets-btn" class="input-btns sets-btns">6</button>
+            </div>
+        </header>
+
+        <main>
+            <div id="push-cont" class="main-cont">
+                <h2>Push</h2>
+                <div class="line exc-line"></div>
+                <div id="chest-cont" class="excercise-cont">
+                    <h3 id="chest-text" class="random-text"></h3>
+                    <button id="chest-info" class="info-btn push-info-btn">i</button>
+                    <button id="chest" class="random-btn push-rndm-btn">R</button>
+                </div>
+                <div id="triceps-cont" class="excercise-cont">
+                    <h3 id="triceps-text" class="random-text"></h3>
+                    <button id="triceps-info" class="info-btn push-info-btn">i</button>
+                    <button id="triceps" class="random-btn push-rndm-btn">R</button>
+                </div>
+                <div id="shoulders-cont" class="excercise-cont">
+                    <h3 id="shoulders-text" class="random-text"></h3>
+                    <button id="triceps-info" class="info-btn push-info-btn">i</button>
+                    <button id="shoulders" class="random-btn push-rndm-btn">R</button>
+                </div>
+
+                <div id="all">
+                    <button id="push-all-btn" class="all-btns">Random All</button>
+                </div>
+            </div>
+
+            <div id="pullLegs-cont" class="main-cont">
+                <h2>Pull (w/Legs)</h2>
+                <div class="line exc-line"></div>
+                <div id="back-cont" class="excercise-cont">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <button id="back" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+                <div id="biceps-cont" class="excercise-cont">
+                    <h3 id="biceps-text" class="random-text"></h3>
+                    <button id="biceps-info" class="info-btn pull-info-btn">i</button>
+                    <button id="biceps" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <button id="legs" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+
+                <div id="all">
+                    <button id="pullLegs-all-btn" class="all-btns">Random All</button>
+                </div>
+            </div>
+
+            <div id="pull-cont" class="main-cont">
+                <h2>Pull</h2>
+                <div class="line exc-line"></div>
+                <div id="back-cont" class="excercise-cont">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <button id="back" class="random-btn pull-rndm-btn">R</button>
+                </div>
+                <div id="biceps-cont" class="excercise-cont">
+                    <h3 id="biceps-text" class="random-text"></h3>
+                    <button id="biceps-info" class="info-btn pull-info-btn">i</button>
+                    <button id="biceps" class="random-btn pull-rndm-btn">R</button>
+                </div>
+                <div id="back-cont" class="excercise-cont">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <button id="back" class="random-btn pull-rndm-btn">R</button>
+                </div>
+
+                <div id="all">
+                    <button id="pull-all-btn" class="all-btns">Random All</button>
+                </div>
+            </div>
+
+            <div id="legsMain-cont" class="main-cont">
+                <h2>Legs</h2>
+                <div class="line exc-line"></div>
+                <div id="legs-cont" class="excercise-cont">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+
+                <div id="all">
+                    <button id="legs-all-btn" class="all-btns">Random All</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
